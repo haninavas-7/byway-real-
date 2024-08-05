@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+}
+header .wrapper {
+    display: block;
+    width: 90%;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.log-in {
+    border: 1px solid #334155;
+    color: #334155;
+}
+
+.sign-up {
+    background-color: #334155;
+    color: #fff;
+    border: none;
+}
+
+#hero {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.img {
+    margin-right: 43%;
+}
+.intro {
+    margin-top:7%;
+    margin-inline: 50px;
+}
+.intro h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: #0F172A;
+}
+
+.intro p {
+    font-size: 14px;
+    margin-bottom: 38px;
+    color: #334155;
+}
+.img a img {
+    width: 225%;
+    margin-left: 85%;
+}
+.cta {
+    padding: 15px 30px;
+    font-size: 8px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#stats {
+    background-color: #f8fafc;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 35px;
+    color: #334155;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+#stats div.item {
+    border-right: 4px solid #a2a2a2;
+    padding-inline: 130px;
+}
+#stats div.item:last-child {
+    border: none;
+}
+#stats h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+#stats p {
+    font-size: 22px;
+}
+.wrapper {
+    width: 90%;
+    max-width: 1280px;
+    margin-inline: auto;
+    display: block;
+}
+#main .top-categories .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+#main .top-categories .top h3 {
+    font-size: 28px;
+}
+#main .top-categories .top a {
+    color: #007bff;
+    font-size: 20px;
+}
+#main .top-categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 70px;
+}
+#main .top-categories ul li {
+    border: 2px solid #E2E8F0;
+    padding-block: 38px;
+    padding-inline: 78px;
+    border-radius: 12px;
+}
+#main .top-categories ul li a img {
+    background: #E0F2FE;
+    padding: 28px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+#main .top-categories ul li h3 {
+    padding-bottom: 12px;
+}
+#main .top-categories ul li span {
+    padding-bottom: 16px;
+}
+#main .top-courses .top {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 60px;
+}
+#main .top-courses .top h3 {
+    font-size: 28px;
+}
+#main .top-courses .top a {
+    color: #007bff;
+    font-size: 20px;
+}
+#main .top-courses ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#main .top-courses ul li {
+    border: 2px solid #E2E8F0;
+    border-radius: 20px;
+    width: 40%;
+    margin-right: 47px;
+}
+#main .top-courses ul li a img {
+    width: 90%;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-top: 30px;
+}
+#main .top-courses ul li h3 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+#main .top-courses ul li span.instructor {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #334155;
+    padding-bottom: 6px;
+}
+#main .top-courses ul li .stars {
+    padding-left: 20px;
+}
+#main .top-courses ul li span.star {
+    color: #000000;
+}
+#main .top-courses ul li div.span span {
+    padding-left: 23px;
+    color: #334155;
+}
+#main .top-courses ul li h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#main .top-instructor .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+#main .top-instructor .top h3 {
+    font-size: 28px;
+}
+#main .top-instructor .top a {
+    color: #007bff;
+    font-size: 20px;
+}
+#main .top-instructor ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+#main .top-instructor ul li {
+    border: 2px solid #E0F2FE;
+    border-radius: 15px;
+    text-align: center;
+}
+#main .top-instructor ul li div.content {
+    padding-inline: 20px;
+    padding-block: 16px;
+}
+#main .top-instructor ul li div.content h3 {
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+#main .top-instructor ul li div.content span.desc {
+    color: #334155;
+}
+#main .top-instructor ul li div.content a.img {
+    margin-right: 5px;
+    font-size: 17px;
+}
+#main .top-instructor ul li div.content span {
+    margin-left: 5px;
+}
+#say .top {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 38px;
+}
+#say .top h3 {
+    font-size: 30px;
+}
+#say div.top div.buttons {
+    display: flex;
+}
+#say div.top div.buttons img {
+    background: #334155;
+    margin-right: 10px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.testimonials {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+}
+
+.quote {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+.author {
+    display: flex;
+    gap: 10px;
+}
+
+.author img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.author-info {
+    text-align: left;
+}
+
+.name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.title {
+    color: #777;
+    margin: 0;
+}
+#future .item {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 400px;
+}
+#future .item h3 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+#future .item p {
+    margin-bottom: 20px;
+    color: #334155;
+}
+#future a.button {
+    background: #000;
+    color: #ffffff;
+    padding-inline: 14px;
+    padding-block: 10px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
